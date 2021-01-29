@@ -12,8 +12,6 @@ Created on Wed Dec 18 16:40:49 2019
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
-import keras
-from sklearn.datasets import make_classification
 
 import keras
 from keras import models
@@ -22,8 +20,6 @@ from keras.models import Sequential, load_model
 from keras.layers import Dense, Flatten
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
-from sklearn.utils import class_weight
-from sklearn.model_selection import StratifiedKFold
 
 
 
